@@ -1,0 +1,26 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main.wrapper{
+    width: 100%;
+    height: auto;
+}
+
+:link{
+    text-decoration: none;
+}
+
+@font-face {
+    font-family: Apple;
+    src: url(../Font/sf-pro-display_bold.woff2);
+    src: url(../Font/sf-pro-display_semibold.woff2);
+    src: url(../Font/sf-pro-text_semibold.woff2);
+}
+
+@font-face {
+    font-family: Applereg;
+    src: url(../Font/sf-pro-display_regular.woff2);
+}

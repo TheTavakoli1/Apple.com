@@ -1,0 +1,26 @@
+main.wrapper div.menu {
+  width: 100%;
+  height: 44px;
+  background-color: rgb(22 22 23);
+}
+
+main.wrapper div.menu nav {
+  width: inherit;
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.wrapper div.menu nav div {
+  width: auto;
+  padding: 0 8px 0 8px;
+  margin: 0 12px;
+}
+
+main.wrapper div.menu nav div a {
+  font-family: Applereg;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 12px;
+  font-weight: 100;
+}
