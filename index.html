@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./CSS/main.css" />
     <link
       rel="shortcut icon"
@@ -131,7 +132,118 @@
         </div>
       </div>
       <!-- Make Banner 4 -->
+
+      <!-- Make slider -->
+      <div class="parent_publicizing">
+        <div class="publicizing">
+          <div class="swiper swiper1">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>Drama.Some men are a mystery.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>Comedy. New season.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>
+                      Drama. Kristen Wiig is a woman on a mission to find her
+                      place .
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>Watch Messi, every club, and every match—live.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>
+                      Documentary. Teen girls build their own democratic
+                      government from the ground up.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>Sci-Fi. Reality is a conspiracy.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>Live MLB games, every Friday.</p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>
+                      Drama. From Steven Spielberg, Tom Hanks, and Gary
+                      Goetzman.
+                    </p>
+                  </div>
+                </a>
+              </div>
+              <div class="swiper-slide">
+                <a href="">
+                  <div class="text">
+                    <button>Stream now</button>
+                    <p>Comedy. Kindness makes a comeback.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+      <!-- End Make slider -->
     </main>
     <!-- End Make Website -->
+
+    <script src="./swiper/swiper-bundle.min.js"></script>
+
+    <!-- swiper 1 -->
+    <script>
+      var swiper = new Swiper(".swiper1", {
+        slidesPerView: 1.2,
+        spaceBetween: 30,
+        autoplay: {
+          delay: 100000,
+          disableOnInteraction: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
   </body>
 </html>

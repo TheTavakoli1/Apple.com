@@ -1,34 +1,33 @@
-main.wrapper div.parent_banner4{
-    width: 98%;
-    height: 1776px;
-    margin-top: 12px;
-    margin-right: auto;
-    margin-left: auto;
+main.wrapper div.parent_banner4 {
+  width: 98%;
+  height: 1776px;
+  margin-top: 12px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
-main.wrapper div.parent_banner4 div.banner4{
-    width: 100%;
-    height: inherit;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 12px;
+main.wrapper div.parent_banner4 div.banner4 {
+  width: 100%;
+  height: inherit;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 12px;
 }
 
-main.wrapper div.parent_banner4 div.banner4 div.child{
-    background-color: thistle;
+main.wrapper div.parent_banner4 div.banner4 div.child {
+  background-color: thistle;
 }
 
-main.wrapper div.parent_banner4 div.banner4 div.child a{
-    background-color: thistle;
-    display: block;
-    width: 100%;
-    height: 100%;
+main.wrapper div.parent_banner4 div.banner4 div.child a {
+  background-color: thistle;
+  display: block;
+  width: 100%;
+  height: 100%;
 }
 
-main.wrapper div.parent_banner4 div.banner4 div.child img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+main.wrapper div.parent_banner4 div.banner4 div.child img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
-
