@@ -1,0 +1,461 @@
+main.wrapper div.parent_footer{
+    width: 100%;
+    height: 906px;
+    background-color: rgb(245 245 247);
+    display: flex;
+    justify-content: center;
+}
+
+main.wrapper div.parent_footer div.footer{
+    width: 68%;
+    height: inherit;
+    padding: 0 22px;
+    background-color: rgb(245 245 247);
+}
+
+main.wrapper div.parent_footer div.footer div.text{
+    width: 100%;
+    height: 320px;
+    background-color: rgb(245 245 247);
+    padding-top: 24px;
+}
+
+main.wrapper div.parent_footer div.footer div.text p{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    padding: 0 0 10px 0;
+    word-spacing: 1.5px;
+}
+
+main.wrapper div.parent_footer div.footer div.text p a{
+    text-decoration-line: underline;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+main.wrapper div.parent_footer div.footer nav{
+    width: 100%;
+    height: 460px;
+    background-color: rgb(245 245 247);
+    border-top: 1px solid rgba(0,0,0,.16);
+    padding-top: 20px;
+}
+
+main.wrapper div.parent_footer div.footer nav div{
+    width: 19.9%;
+    height: 440px;
+    margin-right: -3px;
+    display: inline-block;
+    background-color: rgb(245 245 247);
+    vertical-align: top;
+}
+
+/* nav 1 */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.top{
+    width: 100%;
+    height: 298px;
+    background-color: rgb(245 245 247);
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.top h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.top a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.top a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.bottom{
+    width: 100%;
+    height: 142px;
+    background-color: rgb(245 245 247);
+    padding-top: 18px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.bottom h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.bottom a:hover{
+    
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(1) div.bottom a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+/* nav 2 */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.top{
+    width: 100%;
+    height: 93px;
+    background-color: rgb(245 245 247);
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.top h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.top a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.top a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.bottom{
+    width: 100%;
+    height: 270px;
+    background-color: rgb(245 245 247);
+    padding-top: 20px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.bottom h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.bottom a:hover{
+    
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(2) div.bottom a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+/* nav 3 */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(3) div.top{
+    width: 100%;
+    height: 285px;
+    background-color: rgb(245 245 247);
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(3) div.top h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(3) div.top a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(3) div.top a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+/* nav 4 */
+/* first */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.first{
+    width: 100%;
+    height: 68px;
+    background-color: rgb(245 245 247);
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.first h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.first a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.first a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+/* Second */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.second{
+    width: 100%;
+    height: 116px;
+    background-color: rgb(245 245 247);
+    padding-top: 20px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.second h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.second a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.second a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+/* Third */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.third{
+    width: 100%;
+    height: 116px;
+    background-color: rgb(245 245 247);
+    padding-top: 12px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.third h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.third a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.third a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+/* forth */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.forth{
+    width: 100%;
+    height: 67px;
+    background-color: rgb(245 245 247);
+    padding-top: 12px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.forth h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.forth a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(4) div.forth a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+/* nav 5 */
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.top{
+    width: 100%;
+    height: 210px;
+    background-color: rgb(245 245 247);
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.top h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.top a:hover{
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.top a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.bottom{
+    width: 100%;
+    height: 219px;
+    background-color: rgb(245 245 247);
+    padding-top: 12px;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.bottom h3{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.88);
+    margin: 0 20px 9px 0;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.bottom a:hover{
+    
+    text-decoration-line: underline;
+}
+
+main.wrapper div.parent_footer div.footer nav div:nth-of-type(5) div.bottom a{
+    width: fit-content;
+    display: block;
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    margin-bottom: 10px;
+}
+
+main.wrapper div.parent_footer div.footer div.end{
+    width: 100%;
+    height: 126px;
+    background-color: rgb(245 245 247);
+    padding: 27px 0 11px 0;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.more{
+    width: 100%;
+    height: 36px;
+    background-color: rgb(245 245 247);
+    padding-bottom: 19px;
+    margin-bottom: 16px;
+    border-bottom: 1px solid rgba(0,0,0,.16);
+}
+
+main.wrapper div.parent_footer div.footer div.end div.more p{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    line-height: 36px;
+    word-spacing: 1.5px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.more p a{
+    text-decoration: underline;
+    color: rgb(0, 102, 204);
+    font-size: 12px;
+    word-spacing: 1.5px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright{
+    width: 100%;
+    height: 26px;
+    background-color: rgb(245 245 247);
+    position: relative;
+    padding-top: 4px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(1){
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.45);
+    display: inline-block;
+    line-height: 22px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(2){
+    display: inline-block;
+    margin-left: 36px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(2) a{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.72);
+    margin: 0 4px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(3) {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 2px;
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(3) a{
+    font-family: Applereg;
+    font-size: 13px;
+    font-weight: 400;
+    color: rgba(0,0,0,.72);
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(2) a:hover{
+    text-decoration: 1px solid underline rgba(0,0,0,.72);
+}
+
+main.wrapper div.parent_footer div.footer div.end div.Copyright p:nth-of-type(3) a:hover{
+    text-decoration: 1px solid underline rgba(0,0,0,.72);
+}
