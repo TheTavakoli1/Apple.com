@@ -1,0 +1,433 @@
+main.wrapper div.parent_slider {
+  width: 100%;
+  height: 292px;
+  margin-top: 12px;
+}
+
+main.wrapper div.parent_slider div.slider {
+  width: inherit;
+  height: inherit;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 {
+  width: inherit;
+  height: 236px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper {
+  width: inherit;
+  height: inherit;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide {
+  width: 35.5%;
+  height: inherit;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide a {
+  width: inherit;
+  height: inherit;
+  display: block;
+  position: relative;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a {
+  background-color: rgb(21, 50, 107);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+/* silde 1 */
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a img {
+  width: 53.6%;
+  height: 196px;
+  margin-left: 12px;
+  border-radius: 8px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a p {
+  font-family: Applereg;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  margin-left: 15px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a svg {
+  align-self: flex-end;
+  width: 16.2%;
+  height: 14px;
+  position: absolute;
+  bottom: 18px;
+  right: 12px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a div.modal{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  overflow: hidden;
+  bottom: -100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover div.modal{
+  top: 0;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a div.modal button{
+  width: 28%;
+  height: 36px;
+  background-color: rgb(255 255 255);
+  border-radius: 999px;
+  border: unset;
+  border: 1px solid rgb(0 0 0);
+  text-transform: capitalize;
+  font-family: Applereg;
+  cursor: pointer;
+  position: absolute;
+  bottom: -100px;
+  transition: 200ms;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(1) a:hover div.modal button{
+  bottom: 100px;
+}
+
+
+/* silde 2 */
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a p {
+  font-family: Applereg;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  z-index: 2;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a svg {
+  align-self: flex-end;
+  width: 22%;
+  height: 15px;
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  z-index: 2;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a div.modal{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  overflow: hidden;
+  bottom: -100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a:hover div.modal{
+  top: 0;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a div.modal button{
+  width: 28%;
+  height: 36px;
+  background-color: rgb(255 255 255);
+  border-radius: 999px;
+  border: unset;
+  border: 1px solid rgb(0 0 0);
+  text-transform: capitalize;
+  font-family: Applereg;
+  cursor: pointer;
+  position: absolute;
+  bottom: -100px;
+  transition: 200ms;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(2) a:hover div.modal button{
+  bottom: 100px;
+}
+
+/* silde 3 */
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a p {
+  font-family: Applereg;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  text-shadow: 2px 2px 5px black;
+  z-index: 2;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a svg {
+  align-self: flex-end;
+  width: 20.5%;
+  height: 15px;
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  z-index: 2;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a div.modal{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  overflow: hidden;
+  bottom: -100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a:hover div.modal{
+  top: 0;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a div.modal button{
+  width: 28%;
+  height: 36px;
+  background-color: rgb(255 255 255);
+  border-radius: 999px;
+  border: unset;
+  border: 1px solid rgb(0 0 0);
+  text-transform: capitalize;
+  font-family: Applereg;
+  cursor: pointer;
+  position: absolute;
+  bottom: -100px;
+  transition: 200ms;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(3) a:hover div.modal button{
+  bottom: 100px;
+}
+
+/* silde 4 */
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a {
+  background-color: rgb(70, 16, 15);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a img {
+  width: 53.6%;
+  height: 196px;
+  margin-left: 12px;
+  border-radius: 8px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a p {
+  font-family: Applereg;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  margin-left: 15px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a svg {
+  align-self: flex-end;
+  width: 16.2%;
+  height: 14px;
+  position: absolute;
+  bottom: 18px;
+  right: 12px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a div.modal{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  overflow: hidden;
+  bottom: -100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a:hover div.modal{
+  top: 0;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a div.modal button{
+  width: 28%;
+  height: 36px;
+  background-color: rgb(255 255 255);
+  border-radius: 999px;
+  border: unset;
+  border: 1px solid rgb(0 0 0);
+  text-transform: capitalize;
+  font-family: Applereg;
+  cursor: pointer;
+  position: absolute;
+  bottom: -100px;
+  transition: 200ms;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(4) a:hover div.modal button{
+  bottom: 100px;
+}
+
+/* silde 5 */
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a p {
+  font-family: Applereg;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  text-shadow: 2px 2px 5px black;
+  z-index: 2;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a svg {
+  align-self: flex-end;
+  width: 20.5%;
+  height: 15px;
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  z-index: 2;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a div.modal{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  overflow: hidden;
+  bottom: -100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a:hover div.modal{
+  top: 0;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a div.modal button{
+  width: 28%;
+  height: 36px;
+  background-color: rgb(255 255 255);
+  border-radius: 999px;
+  border: unset;
+  border: 1px solid rgb(0 0 0);
+  text-transform: capitalize;
+  font-family: Applereg;
+  cursor: pointer;
+  position: absolute;
+  bottom: -100px;
+  transition: 200ms;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(5) a:hover div.modal button{
+  bottom: 100px;
+}
+
+/* silde 6 */
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a img {
+  width: 100%;
+  height: inherit;
+  object-fit: cover;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a p {
+  font-family: Applereg;
+  font-size: 14px;
+  font-weight: 500;
+  color: rgb(255 255 255);
+  text-shadow: 2px 2px 5px black;
+  z-index: 2;
+  text-transform: capitalize;
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a svg {
+  align-self: flex-end;
+  width: 20.5%;
+  height: 15px;
+  position: absolute;
+  bottom: 18px;
+  right: 10px;
+  z-index: 2;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a div.modal{
+  width: inherit;
+  height: inherit;
+  background-color: rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  position: absolute;
+  bottom: -100%;
+  z-index: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a:hover div.modal{
+  top: 0;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a div.modal button{
+  width: 28%;
+  height: 36px;
+  background-color: rgb(255 255 255);
+  border-radius: 999px;
+  border: unset;
+  border: 1px solid rgb(0 0 0);
+  text-transform: capitalize;
+  font-family: Applereg;
+  cursor: pointer;
+  position: absolute;
+  bottom: -100px;
+  transition: 200ms;
+}
+
+main.wrapper div.parent_slider div.slider .swiper2 div.swiper-wrapper div.swiper-slide:nth-of-type(6) a:hover div.modal button{
+  bottom: 100px;
+}
