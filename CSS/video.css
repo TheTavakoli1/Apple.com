@@ -1,0 +1,103 @@
+main.wrapper div.parent_video {
+    width: 100%;
+    height: 800px;
+    margin-bottom: 12px;
+}
+
+main.wrapper div.parent_video div.video {
+    width: inherit;
+    height: inherit;
+}
+
+main.wrapper div.parent_video div.video a {
+    display: block;
+    width: inherit;
+    height: inherit;
+    position: relative;
+}
+
+main.wrapper div.parent_video div.video a video {
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+main.wrapper div.parent_video div.video a div.text {
+    width: inherit;
+    height: 208px;
+    padding: 47px 0 0 0;
+    text-align: center;
+    position: absolute;
+    bottom: 50px;
+}
+
+main.wrapper div.parent_video div.video a div.text h2 {
+    font-family: Apple;
+    font-size: 56px;
+    font-weight: 600;
+    color: rgb(245, 245, 247);
+    letter-spacing: -2px;
+}
+
+main.wrapper div.parent_video div.video a div.text p {
+    font-family: Applereg;
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(245, 245, 247);
+}
+
+main.wrapper div.parent_video div.video a div.text div.button {
+    width: 15%;
+    height: 44px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.left {
+    width: 60%;
+    height: inherit;
+    background-color: rgb(255, 255, 255);
+    border-radius: 999px;
+    padding: 11px 21px;
+    border: 1px solid rgba(0, 0, 0, 0);
+    cursor: pointer;
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.left:hover {
+    filter: brightness(105%);
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.left span {
+    font-family: Applereg;
+    font-size: 17px;
+    font-weight: 100;
+    color: rgb(0, 0, 0);
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.right {
+    width: 33%;
+    height: inherit;
+    background-color: transparent;
+    padding: 11px 21px;
+    border-radius: 999px;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.right span {
+    font-family: Applereg;
+    font-size: 17px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.right:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+main.wrapper div.parent_video div.video a div.text div.button button.right:hover span {
+    color: rgb(0, 0, 0);
+}
