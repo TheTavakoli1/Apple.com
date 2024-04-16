@@ -18,9 +18,14 @@ main.wrapper div.menu nav div {
   margin: 0 12px;
 }
 
+main.wrapper div.menu nav div:hover a{
+  color: whitesmoke;
+}
+
 main.wrapper div.menu nav div a {
   font-family: Applereg;
   color: rgba(255, 255, 255, 0.8);
   font-size: 12px;
   font-weight: 100;
+  transition: all 100ms;
 }
