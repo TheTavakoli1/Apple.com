@@ -1,7 +1,7 @@
 main.wrapper div.menu {
   width: 100%;
   height: 44px;
-  background-color: rgba(22, 22, 23, 0.8);
+  background-color: rgba(22,22,23,0.9);
 }
 
 main.wrapper div.menu nav {
@@ -14,8 +14,10 @@ main.wrapper div.menu nav {
 
 main.wrapper div.menu nav div {
   width: auto;
+  height: auto;
   padding: 0 8px 0 8px;
   margin: 0 12px;
+  position: relative;
 }
 
 main.wrapper div.menu nav div:hover a{
@@ -28,4 +30,14 @@ main.wrapper div.menu nav div a {
   font-size: 12px;
   font-weight: 100;
   transition: all 100ms;
+}
+
+main.wrapper>div.menu>nav>div>div.submenu{
+  width: 100vw;
+  height: 408px;
+  background-color: rgba(22, 22, 23, 0.8);
+  position: absolute;
+  z-index: 2;
+  top: 31px;
+  left: -20.8vw;
 }
